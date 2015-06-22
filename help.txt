@@ -1,7 +1,0 @@
-###FOR getting tweets (live) and their sentiments,
-
-1) First, Get the trends by "python get_trends.py" which stores the trends linewise in "trends.txt"
-2) Next, We run "python stream_track.py <Count_of_tweets>" for some time (User defined / by the no.of tweets recieved too), this stores the tweets in JSON format(related to trends only) to the file "tweets_from_trends.txt"
-3) OPTIONAL  ------ Next, We run "python tweet_from_trends.py" to store the output in the file "final_tweet_from_trends.txt"
-4) To find the sentiment, we run "python sentiment_tweets_from_trends.py" which outputs it finally.
-5) Finally, the Bash File "tweets_sentiments_trends.sh" runs all of them at once.
